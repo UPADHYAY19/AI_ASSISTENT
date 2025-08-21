@@ -1,0 +1,55 @@
+.text {
+  color: white;
+
+  padding: 10px;
+
+  margin-bottom: 10px;
+  width: 100%;
+  white-space: pre-wrap;
+  /* preserves line breaks and spacing */
+  word-wrap: break-word;
+  font-family: sans-serif;
+}
+
+.yes-heading {
+  font-size: 25px;
+}
+
+.no-heading {
+  font-size: 18px;
+  padding: 5px;
+
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .yes-heading {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .no-heading {
+    font-size: 16px;
+    padding: 4px;
+    text-align: center;
+  }
+}
+
+@media (max-height: 600px) {
+  .text {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .yes-heading {
+    font-size: 18px;
+  }
+
+  .no-heading {
+    font-size: 15px;
+  }
+}

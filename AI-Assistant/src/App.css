@@ -1,0 +1,21 @@
+
+.root-container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+.root-container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row; /* default layout: left + right side by side */
+}
+
+/* Stack vertically on small screens (e.g. mobile) */
+@media (max-width: 768px) {
+  .root-container {
+    
+    height: auto; /* allow height to adjust naturally */
+    min-height: 100vh;
+  }
+}
